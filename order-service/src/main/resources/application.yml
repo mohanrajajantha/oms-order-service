@@ -80,4 +80,5 @@ logging:
     level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
 
 
-#logging.level.com.oms: DEBUG
+#logging.level.com.oms: INFO
+
