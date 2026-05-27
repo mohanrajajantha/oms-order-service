@@ -79,4 +79,5 @@ logging:
     # This formats your console logs to inject [Service-Name, Trace-ID, Span-ID]
     level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
 
+
 #logging.level.com.oms: DEBUG
